@@ -194,5 +194,17 @@ print(C)
 
 #Ans = -1
 
+##############################################################
 
+#Comments in Python
+
+#Single line comment we use # 
+
+
+
+'''
+this is a multi line
+Comments
+
+'''
 
