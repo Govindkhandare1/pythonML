@@ -213,5 +213,40 @@ Comments
 
 '''input() statement is used to accept values(using keyboard) from user'''
 
+# String input 
+# name= input("name:")
+
+
+#int input 
+#age = int(input("age:"))
+
+#float input
+#Price =float(input("price:"))
+
+
+#Taking input from the user and printing it
+
+name=input("name:")
+print(name)
+
+
+
+# taking int values
+
+age= int(input("age :"))
+print(age)
+
+#Taking float values
+
+price =float(input("price:"))
+print(price)
+
+# Print all input in single print statement
+print("my name is ",name,"and i am ",age,"year","and price will be ",price,)
+
+#############################################################
+
+#Completed till 1 hour 16 min and topic is Practice time 
+
 
 
