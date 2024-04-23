@@ -200,11 +200,18 @@ print(C)
 
 #Single line comment we use # 
 
-
+#We can use for multi line comments""""
 
 '''
 this is a multi line
 Comments
 
 '''
+
+
+##Input in Python
+
+'''input() statement is used to accept values(using keyboard) from user'''
+
+
 
