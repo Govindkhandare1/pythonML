@@ -359,4 +359,4 @@ elif(A==3 or A==4 or G == "F"):
 elif(A==5 and G == "M"):
     print("fee is 300")
 else:
-    print("No fees")               
+    print("No fees")          
