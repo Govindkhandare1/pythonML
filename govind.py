@@ -1,17 +1,24 @@
 #Hello
 
+'''
+A       B       A and B
+--------------------------
+True    True    True
+True    False   False
+False   True    False
+False   False   False
 
-name=input("name:")
-print(name)
-age= int(input("age :"))
-print(age)
-price =float(input("price:"))
-print(price)
+'''
+# A= 5 & G= M
+#A= 2 & G= F
 
-print("my name is ",name,"and i am ",age,"year","and price will be ",price,)
-
-
-A=25
-B=2
-C=A**B
-print(C)
+A= int(input("A :"))
+G= input("M/F :")
+if((A==1 or A==2) and G== "M"):
+    print("fee is 100")
+elif(A==3 or A==4 or G == "F"):
+    print("fee is 200")
+elif(A==5 and G == "M"):
+    print("fee is 300")
+else:
+    print("No fees")           
