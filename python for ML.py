@@ -397,5 +397,7 @@ sal = float(input("salary :"))
 tax = sal*(0.1 ,0.2) [sal>=50000]
 print(tax)
 
+# Completed till 2.05 hours (2 hour 5 min)
+
 
 
