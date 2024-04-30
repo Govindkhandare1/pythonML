@@ -371,4 +371,31 @@ else:
 food = input("food :")
 eat = "Yes" if food == "cake" else "no"
 print(eat)
-          
+
+
+
+
+#another example
+
+food=input("food:")
+print("sweet") if food =="cake" or food =="jamun" else print("not sweet")
+
+
+
+'''clever if/ Ternary operator
+
+<var> = (false_val,true_val) <condition>
+'''
+
+age = int(input("age:"))
+vote = ("yes","no")[age<=18]
+print(vote)
+
+# Another example
+
+sal = float(input("salary :"))
+tax = sal*(0.1 ,0.2) [sal>=50000]
+print(tax)
+
+
+

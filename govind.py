@@ -1,9 +1,12 @@
-#single line if/Ternary operator
+'''clever if/ Ternary operator
 
-'''<var> if <condition> else <val2>
-'''
+<var> = (false_val,true_val) <condition>
 
 
-food = input("food :")
-eat = "Yes" if food == "cake" else "no"
-print(eat)
+age = int(input("age:"))
+vote = ("yes","no")[age<=18]
+print(vote) '''
+
+sal = float(input("salary :"))
+tax = sal*(0.1 ,0.2) [sal>=50000]
+print(tax)
