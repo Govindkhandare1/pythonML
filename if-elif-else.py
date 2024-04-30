@@ -69,7 +69,7 @@ True    False   False
 False   True    False
 False   False   False
 
-Or Table Truth table
+OR operator Table Truth table
 
 A       B       A or B
 --------------------------
