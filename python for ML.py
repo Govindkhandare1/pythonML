@@ -359,4 +359,16 @@ elif(A==3 or A==4 or G == "F"):
 elif(A==5 and G == "M"):
     print("fee is 300")
 else:
-    print("No fees")          
+    print("No fees")
+
+
+    #single line if/Ternary operator
+
+'''<var> if <condition> else <val2>
+'''
+
+
+food = input("food :")
+eat = "Yes" if food == "cake" else "no"
+print(eat)
+          
