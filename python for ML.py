@@ -465,6 +465,165 @@ a=str(a)
 
 print(type(a))
 
+#Practice question
+'''Write a program to input 2 numbers and pritn their sum'''
+
+num1=int(input("Enter first number"))
+num2=int(input("Enter Second Number"))
+
+num=num1+num2
+print("your total",num)
+
+#another  solution
+num1=int(input("Enter first number"))
+num2=int(input("Enter Second Number"))
+
+
+print("your total",num1+num2)
+
+
+#Another question
+'''WAP to input side of a square and print its area'''
+
+side=int(input("Enter Square side :"))
+side2=side*side
+print("Area of Square is :",side2)
+
+#amother
+side=int(input("Enter Square side :"))
+
+print("Area of Square is :",side*side)
+
+
+#another solution
+
+side=int(input("Enter Square side :"))
+
+print("Area of Square is :",side**2)
+
+#Another Questions
+'''WAP to input 2 floating points numbers & pritn their average'''
+
+
+num1=float(input("Enter first number:"))
+num2=float(input("Enter Second Number"))
+
+avg=(num1+num2)/2
+print("AVergae of given float numbers",avg)
+
+#Another solution
+num1=float(input("Enter first number:"))
+num2=float(input("Enter Second Number"))
+
+
+print("AVergae of given float numbers",(num1+num2)/2)
+
+#Write a Program to input 2 int numbers, a and B print True is a is greater than or equal to b. if not print False.
+
+a= int(input("Enter First number"))
+b=int(input("Enter second Number"))
+
+print(a>=b)
+
+
+##################################################################################################
+
+#Chapter 2
+
+'''String and Conditional statement'''
+
+'''String is data type that stores a sequence  of characters'''
 
 
 
+str1=" This is a string"
+str2= 'This is string 2'
+str3= """This is String three"""
+
+
+'''escape sqquence characters'''
+
+#\n for next line
+
+
+str1=" This is a string.\n this is GOvind."
+print(str1)
+
+'''Concatenation  is adding two string into one with plus(+) operator
+for example
+
+"hello" + "World"  -------> "Helloworld"
+'''
+
+str="Hello"
+str1="World"
+print(str+str1)
+
+
+#Length of str      len(str)   and space also count in length
+
+
+str="Hello"
+len1=len(str)
+print(len1)
+
+
+str1="World"
+len2=len(str1)
+print(len2)
+
+
+print(len(str+str1))
+
+print(len(str+" "+str1))
+
+
+# Indexing
+
+# indexing nothing but position
+
+str="Hello World"
+ch=str[0]
+print(ch)
+
+
+#Slicing basically used for ML
+
+'''In Python, slicing is a technique used to extract a portion of a sequence (like lists, tuples, or strings) by specifying a range of indices. The syntax for slicing is sequence[start_index:end_index:step]. Here's an explanation of each component:
+
+start_index: The index from where the slicing should begin. This index is inclusive, meaning the element at this index will be included in the slice.
+
+end_index: The index where the slicing should end. This index is exclusive, meaning the element at this index will not be included in the slice.
+
+step (optional): The step size used to skip elements while slicing. This is an optional parameter and is by default 1. 
+
+A positive step means slicing forward through the sequence, while a negative step means slicing backward.'''
+
+
+
+# Accessing parts of a string
+'''
+str[starting_idx:ending_idx] #ending idx is not included'''
+
+str="Hello World"
+str1=str[1:4] #is "ell"
+print(str1)
+
+
+str="Hello World"
+str1=str[6:] #is "ell"
+print(str1)
+
+str="Hello World"
+str1=str[:11] #is "ell"
+print(str1)
+
+
+#Negative indexing
+
+str="Apple"
+print(str[-5:-2])
+
+
+# String Function Started
+ # Time is 2 hours 52 min 

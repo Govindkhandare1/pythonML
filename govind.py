@@ -1,4 +1,2 @@
-a=3.14
-a=str(a)
-
-print(type(a))
+str="Apple"
+print(str[-5:-2])
