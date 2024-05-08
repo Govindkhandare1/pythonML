@@ -397,7 +397,74 @@ sal = float(input("salary :"))
 tax = sal*(0.1 ,0.2) [sal>=50000]
 print(tax)
 
+#Operators
+a=5
+b=2
+
+print(a!=b)
+print(a>=b)
+print(a>b)
+print(a<b)
+print(a<=b)
+
+'''
+Relational operator
+
+(==,) Equal to
+(!+) Not equal to
+
+'''
+
 # Completed till 2.05 hours (2 hour 5 min)
+
+#Logical operators (not,and,or)
+#Not Operator
+'''not true = False
+not False = True'''
+
+print(not False)
+print(not True)
+
+a=50
+b=30
+
+
+print(not False)
+print(not True)
+
+print(not (a>b))
+
+# And Operator
+val1 = True
+val2= True
+print("and operator",val1 and val2)
+
+val1 = True
+val2= False
+print("and operator",val1 and val2)
+
+
+#OR OPERATOR
+
+val1 = True
+val2= False
+
+print("and operator",val1 or val2)
+
+
+#Type Conversion
+
+a=int("2")
+b=4.25
+print(type(a))
+print(a+b)
+
+
+a=3.14
+a=str(a)
+
+print(type(a))
+
 
 
 
