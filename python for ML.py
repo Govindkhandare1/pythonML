@@ -705,3 +705,29 @@ print(str.find("not available")) # print -1 if value not find
 str = "i am studying python online"
 print(str.count("online"))
 
+'''
+Practive questions
+
+Write a program users first name& print its length
+'''
+
+name=str(input("Enter First name :"))
+print("lengt of yout name",len(name))
+
+
+
+# write a programe to find the occurance of'$' in a string
+
+
+str= "hi we are using a doller $ symbol to our payment gateway "
+print(str.count("$"))
+
+
+
+str= "hi we are using a $ doller $ symbol to our payment $ gateway  $100"
+print(str.count("$"))
+
+
+#conditional statement
+
+#completed till 3 hour 2 min
