@@ -1,2 +1,2 @@
-str="Apple"
-print(str[-5:-2])
+str = "i am studying python online"
+print(str.count("Online"))
