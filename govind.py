@@ -1,6 +1,18 @@
-name=str(input("Enter First name :"))
-print("lengt of yout name",len(name))
+#Write a programe to chek if a number is a multiple of 7 or not
+
+a=int(input("enter number"))
+b=a%7
+if(b==0):
+    print("this number is multiple of 7")
+else:
+    print("This number is not multiple of 7 check another number")
 
 
-str= "hi we are using a $ doller $ symbol to our payment $ gateway  $100"
-print(str.count("$"))
+
+a=int(input("Enter a number"))
+
+if(a%7==0):
+    print("entered number is multiple of 7 ")
+
+else:
+    print("enter number is not multiple of 7 try another number")

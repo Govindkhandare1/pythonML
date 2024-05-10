@@ -731,3 +731,114 @@ print(str.count("$"))
 #conditional statement
 
 #completed till 3 hour 2 min
+
+
+
+
+
+#Nesting  we can use if staatemnt in same if statement 
+
+age = 80
+if(age>=18):
+    if(age>=80):
+        print("Your age is greater than 80 you are sinior citizen recommended to not drive ")
+    else:    
+        print("You can Drive")
+else:
+    print("Can not drive")   
+
+# if user wants to enter age manually (take inout from the user)
+    age = int(input("Enter your Age:"))
+if(age>=18):
+    if(age>=80):
+        print("Your age is greater than 80 you are sinior citizen recommended to not drive ")
+    else:    
+        print("You can Drive")
+else:
+    print("Can not drive")
+
+
+
+
+'''
+Practive Questions
+
+write a programe to check if a number entered by the user is odd or even.
+'''
+num =int(input("Enter Number"))
+
+if(num%2==0):
+    print("this is even number")
+else:
+    print("this is ODD number")
+
+
+
+#Another solution for this
+num=int(input("Enter your number"))
+
+rem=num%2
+
+if(rem==0):
+    print("this is even number")
+else:
+    print("This is Odd Number")
+
+
+
+#Write a programe to find the greatest of 3 numbers entered by the user.
+
+
+num1=int(input("Enter First number"))
+num2=int(input("Enter Second number"))
+num3=int(input("Enter Third number"))
+
+if(num1>num2 and num1>num3):
+    print("Num 1 is greated than all entered number num 2 and num 3")
+elif(num2>num1 and num2>num3):
+    print("Num 2 is greater than Numn 1 and Num 3")  
+elif(num3>num1 and num3 >num1):
+    print("Num 3 is greater than num 2 and num 1")
+else:
+    print("user entered same value for all 3 number")
+
+
+ #another solution
+
+    #Write a programe to find the greatest of 3 numbers entered by the user.
+
+
+num1=int(input("Enter First number"))
+num2=int(input("Enter Second number"))
+num3=int(input("Enter Third number"))
+
+if(num1>num2 and num1>num3):
+    print("Num 1 is greated than all entered number num 2 and num 3:",num1)
+elif(num2>num3):
+    print("num 2 is greatest number than num 1 and num3 :", num2)
+else:
+    print("Thirs number is lagest number than num 1 and num 2:",num3)
+
+
+#Write a programe to chek if a number is a multiple of 7 or not
+
+a=int(input("enter number"))#with creating new variable
+b=a%7
+if(b==0):
+    print("this number is multiple of 7")
+else:
+    print("This number is not multiple of 7 check another number")
+
+
+#another soultion
+a=int(input("Enter a number"))
+
+if(a%7==0):
+    print("entered number is multiple of 7 ")
+
+else:
+    print("enter number is not multiple of 7 try another number")   
+
+
+#Completed till 3 hour 27 min
+#and started new chapter 3 List in python        
