@@ -842,3 +842,11 @@ else:
 
 #Completed till 3 hour 27 min
 #and started new chapter 3 List in python        
+    
+
+'''
+In Python, a list is a built-in data structure used to store a collection of items. 
+Lists are ordered, mutable (meaning you can change their elements), and can contain elements of different types. Y
+ou can create a list by enclosing comma-separated values within square brackets 
+'''
+
