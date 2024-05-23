@@ -850,3 +850,248 @@ Lists are ordered, mutable (meaning you can change their elements), and can cont
 ou can create a list by enclosing comma-separated values within square brackets 
 '''
 
+
+#Completed till 3 hour 27 min
+#and started new chapter 3 List in python
+marks =[12,132,34 ,45,56, 67]
+print(marks)
+
+print(type(marks))
+print(len(marks))
+
+
+student = ["Govind",88 ,24 ,"Pune"]
+print(student[0])
+student[0] = "Kanchan"
+print(student)
+
+
+#List slicing
+
+'''
+list_name[starting_idx : ending_idx] ending idx is not included
+
+'''
+
+
+marks= [55,66,77,88,99]
+print(marks[1:4])
+print(marks[:4])
+print(marks[1:])
+
+print(marks[-3:-1])
+
+
+'''
+List Method
+
+list =[2,1,3]
+
+list.append(4) #adds one element at the end [2,1,3,4]
+
+list.sort(reverse =True) #sort in descending order [3,2,1]
+
+list.reverse() #reverses list [3,1,2]
+
+list.insert(idx,el) #insert element at index
+
+list.remove(1) #Remove first occurrence of the element
+
+list.pop(idx) #remove element at idx
+
+'''
+
+#list.append(4) #adds one element at the end [2,1,3,4]
+marks = [10,20,30]
+marks.append (30)
+print(marks)
+
+
+#list.sort(reverse =True) #sort in descending order [3,2,1]
+
+marks = [10,20,30,4,5,2,5,0,56]
+
+print(marks.sort())
+
+print(marks)
+
+#another
+
+list = [10,20,30,4,5,2,5,0,56]
+print(list.sort())
+print(list)
+
+
+#list.reverse() #reverses list [3,1,2]
+
+list = [10,20,30,4,5,2,5,0,56]
+print(list.sort(reverse=True))
+print(list)
+
+
+
+
+
+
+list = ["Banana", "Apple" ,"Mango"]
+print(list.sort())
+print(list.sort(reverse=True))
+print(list)
+
+
+#list.reverse() #reverses list [3,1,2]
+
+
+
+
+list = ["Banana", "Apple" ,"Mango"]
+list.sort()
+
+print(list)
+
+
+#list.insert(idx,el) #insert element at index
+
+list =[2,1,3]
+list.insert(1,5)
+print(list)
+
+
+#list.remove(1) #Remove first occurrence of the element
+
+
+list =[1,5,3,1]
+list.remove(1)
+print(list)
+
+
+#list.pop(idx) #remove element at idx
+
+list =[1,5,3,1]
+list.pop(1)
+print(list)
+
+
+# Tuples in Python
+
+'''
+Tuple is A Built-in data type lets us create immutable sequences of values
+
+'''
+
+tup = (2,1,3,1)
+print(type(tup))
+print(tup[3])
+
+
+
+# we can create empty typle
+
+tup = ()
+print(tup)
+print(type(tup))
+
+
+tup = (5,)  #always use comma for single values if not then python cosider as a int.
+print(tup)
+print(type(tup))
+
+
+#slicing also possible in tuple
+
+tup =(1,2,4,5,6)
+
+print(tup[1:3])
+
+
+#Tuple Method
+
+'''
+tup.index(el) # Return index of first occurrence tup.index(1)is 1
+
+tup.count(el) #counts total occurrences tup.count(1) is 2
+'''
+# tup.index(el) # Return index of first occurrence tup.index(1)is 1
+
+
+tup =(1,2,4,5,6)
+
+print(tup.index(6))
+
+
+#tup.count(el) #counts total occurrences tup.count(1) is 2
+
+
+tup =(1,2,4,5,6,5,7,8,9,5,5,5,5,5,5,5)
+
+print(tup.count(5))
+
+
+
+#practive questions
+
+#write a program ask the user to enter names of their 3 favourite movies and store them in a list
+
+
+
+
+movies = []
+
+mov1 =input("Enter 1 st Movie name:")
+mov2 = input("Enter 2nd movie name:")
+mov3 = input("Enter 3 rd movie name:")
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+
+print(movies)
+
+#Another soultion
+
+
+movies = []
+
+mov =input("Enter 1 st Movie name:")
+movies.append(mov)
+mov = input("Enter 2nd movie name:")
+movies.append(mov)
+mov = input("Enter 3 rd movie name:")
+movies.append(mov)
+
+
+print(movies)
+
+
+# Another Solution
+
+
+movies = []
+
+movies.append(input("Enter 1 st Movie name:"))
+movies.append(input("Enter 2nd movie name:"))
+movies.append(input("Enter 3 rd movie name:"))
+
+print(movies)
+
+
+
+# write a programee to check if a list contains a palindrome of element . (Hint : use copy() method)
+
+list1 =[1,2,1]
+list2 =[1,2,3]
+
+copy_list1 =list1.copy()
+copy_list1.reverse()
+
+if(copy_list1 == list1):
+    print("palindrome")
+else:
+    print("Not Palindrome ")
+
+
+#Write a programe to count the number of student with the "A" grade in the following tuple.
+    
+grade = ("C","D","A","A","B","B","A")
+print(grade.count("A"))
+

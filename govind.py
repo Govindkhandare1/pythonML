@@ -1,3 +1,4 @@
-list =[1,5,3,1]
-list.pop(1)
-print(list)
+    
+grade = ["C","D","A","A","B","B","A"]
+grade.sort()
+print(grade)
