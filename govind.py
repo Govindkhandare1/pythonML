@@ -1,16 +1,10 @@
-student = {
+values = {
 
-"name" : "Govind Khandare",
-"subjects" : {
-"math" : 88,
-"chem" :98,
-"phy" :88,
+("float" , 9.0),
+("int", 9 ),
 
 
-}
+
 
 }
-
-# nested dictionary
-
-print(student["subjects"]["math"])
+print(values)
