@@ -1719,3 +1719,93 @@ print(set1.intersection(set2))
 #Practice Questions
 
 
+
+
+# store following word meaning in a python dictionary:
+
+'''
+ table : "a piece of furniture " , "list of facts & figurs"
+
+ cat : "a small animal"
+
+'''
+
+# Solution
+
+dict = {
+
+
+    "cat": "a small animal",
+    "table" : ["a piece of furniture" , "list of facts & figures"]
+}
+
+print(dict)
+
+
+
+#You are given a list of subject for students . Assume one classroom is required for 1 subject. How many classroom are needed by all students.
+
+# "python" , "java" , "C++", "javascripts" ,
+#"java" , "python","java", "C++" , "C"
+
+
+# Solution
+
+subject = {
+
+ "python" , "java" , "C++", "javascripts" ,
+"java" , "python","java", "C++" , "C"
+
+}
+
+
+print(len(subject))
+
+
+# Write a programe to enter marks of 3 subjects from the user and store them in a dictionary . start with an empty dictionary
+# and add one by one . Use subjects name as key & marks as value.
+
+
+#Solution
+
+marks = {}
+
+a = (input("Enter phy marks"))
+marks.update({"phy": a})
+
+
+a = (input("Enter math marks"))
+marks.update({"math": a})
+
+
+a = (input("Enter phy marks"))
+marks.update({"chem": a})
+
+
+
+print(marks)
+
+
+'''
+figure out a way to store 9 and 9.0 as seprate values in the set.
+(you can take help of built-in data types)
+'''
+
+
+#Solution
+
+values = {9,"9.0"}  # use as string to print value
+print(values)
+
+
+# Another solution
+
+values = {
+
+("float" , 9.0),
+("int", 9 ),
+}
+print(values)
+
+
+
