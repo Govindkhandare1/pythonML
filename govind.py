@@ -1,10 +1,5 @@
-values = {
-
-("float" , 9.0),
-("int", 9 ),
-
-
-
-
-}
-print(values)
+count = 1
+while count <= 5 :
+    print("Govind")
+    count += 1
+print(count)

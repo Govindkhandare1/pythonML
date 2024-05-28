@@ -1810,4 +1810,10 @@ print(values)
 
 # Completed dictionary and set
 
+#Completed till 5 Hours 
+
+# Loops in python
+
+# Chapter 5 Loops
+
 
