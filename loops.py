@@ -127,14 +127,12 @@ while i < len(num):
 
 # Break & Continue keyword
 
+'''
 
- '''
  Break : used to terminate the loop when encountered
 
  continue : terminates execution in the current iteration & continues execution of the loop with the next iteration.
 
- 
- 
- 
- '''           
+'''
+
 
